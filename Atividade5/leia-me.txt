@@ -1,0 +1,22 @@
+Alíquota INSS para Salário Bruto
+
+Até 800.47 - 7.65%
+de 800.48 a 1050 - 8.65%
+de 1050 a 1400.77 - 9.00%
+de 1400.78 a 2801.56% - 11.00%
+>2801.56 -> Desconto = 309.17 (teto)
+
+//calculo inss
+
+if(SalBruto <= 800.47)
+{
+	txtINSS.Text = "7,65%";
+	descontoINSS = 0.765 * SalBruto;
+}
+else if (SalBruto <=1050)
+{
+txtINSS.Text = "8,65%";
+descontoINSS = ((8.65/100*) * SalBruto);
+}
+
+perdão prof, essa eu não entendi msm pq não deu certp
